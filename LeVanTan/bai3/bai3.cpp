@@ -12,7 +12,7 @@ struct NhanVien {
     string Ho; // ho
     int Luong;
 } nva, nvb;
-//typedef NhanVien nva, nvb; // nva: nhan vien dc tim thay, nvb: nhan vien co luong cao nhat
+
 class DSNhanvien 
 {
     public:
@@ -49,7 +49,6 @@ void DSNhanvien::Nhap()
     int m = n;
     n += tam;
     DS.resize(n);
-    // cout << m << " " << n << endl;
     for(int i = m; i < n; i++) {
         cout << "Nhap ma nhan vien: ";
         fflush(stdin);
@@ -67,9 +66,9 @@ void DSNhanvien::Nhap()
 void DSNhanvien::Xuat() 
 {
     if(n) {
-        cout << "STT" <<"\t\t"<< "Emp code" <<"\t\t"<< "Ho"<<"\t\t"<<"Ten"<<"\t\t"<< "Salary" << endl;;
+        cout << "STT" <<"\t\t\t"<< "Ma" <<"\t\t\t"<< "Ho"<<"\t\t\t"<<"Ten"<<"\t\t\t"<< "Salary" << endl;;
         for(int i = 0; i < n; i++) {
-            cout << i + 1 << "\t\t" << DS[i].Manhanvien << "\t\t"<< DS[i].Ho <<"\t\t"<< DS[i].Ten<<"\t\t"<< DS[i].Luong << endl;;
+            cout << i + 1 << "\t\t\t" << DS[i].Manhanvien << "\t\t\t"<< DS[i].Ho <<"\t\t\t"<< DS[i].Ten<<"\t\t\t"<< DS[i].Luong << endl;;
         }
     } else {
         cout << "Khong co nhan vien nao!" << endl;
@@ -273,7 +272,7 @@ void Ghifileoutput(NhanVien nva, NhanVien nvb, DSNhanvien dsnv) {
     }
 
     s.close();
-    cout << endl << "Da ghi du lieu vao file output5.txt" << endl;
+    cout << endl << "Da ghi du lieu vao file output3.txt" << endl;
 }
 bool VeMenu() {
     cout << "Nhan phim E de tro ve Menu: "; cin >> vemenu;

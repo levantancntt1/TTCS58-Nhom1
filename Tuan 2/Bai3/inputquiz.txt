@@ -1,0 +1,19 @@
+3
+1 + 1 bang may?
+1
+2
+3
+Vo han
+B
+1 + 5 bang may?
+1
+2
+6
+Vo han
+C
+Mot nam co bao nhieu thang?
+10
+11
+12
+9
+C

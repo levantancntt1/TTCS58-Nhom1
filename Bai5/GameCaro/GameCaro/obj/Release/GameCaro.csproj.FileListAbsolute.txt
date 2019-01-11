@@ -1,4 +1,0 @@
-C:\Bai5\GameCaro\GameCaro\obj\Release\GameCaro.Form1.resources
-C:\Bai5\GameCaro\GameCaro\obj\Release\GameCaro.Properties.Resources.resources
-C:\Bai5\GameCaro\GameCaro\obj\Release\GameCaro.csproj.GenerateResource.cache
-C:\Bai5\GameCaro\GameCaro\obj\Release\GameCaro.csproj.CoreCompileInputs.cache
